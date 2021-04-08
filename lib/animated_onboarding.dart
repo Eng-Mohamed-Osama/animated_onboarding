@@ -92,7 +92,7 @@ class _AnimatedOnboardingState extends State<AnimatedOnboarding> {
             itemBuilder: (c, i) => Align(
               alignment: Alignment.topCenter,
               child: Padding(
-                padding: const EdgeInsets.only(top: 200),
+                padding: const EdgeInsets.only(top: 100),
                 child: _AnimatedBody(
                   child: widget.pages.elementAt(i).child,
                 ),
@@ -170,7 +170,7 @@ class _AnimatedOnboardingState extends State<AnimatedOnboarding> {
                             child: Container(
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
-                                color: Colors.white,
+                                color: Color(0xff3de2d6),
                               ),
                               child: Icon(
                                 Icons.navigate_next,
