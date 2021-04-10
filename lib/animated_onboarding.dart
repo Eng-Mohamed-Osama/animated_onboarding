@@ -170,7 +170,7 @@ class _AnimatedOnboardingState extends State<AnimatedOnboarding> {
                             child: Container(
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
-                                color: Color(0xff3de2d6),
+                                color: Color(0xFF00A1A7),
                               ),
                               child: Icon(
                                 Icons.navigate_next,
